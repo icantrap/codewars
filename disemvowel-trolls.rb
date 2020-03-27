@@ -31,7 +31,7 @@ def disemvowel(str)
   
   for index in 0..characters.length-1 do
     char = characters[index]
-        if 'AEIOUaeiou'.include?(char)
+    if 'AEIOUaeiou'.include?(char)
       characters[index] = nil
     end
   end
